@@ -1,5 +1,7 @@
 
 # Find maximum
+
+
 def selection_sort_LTR(l):
     length = len(l)
     for i in range(0, length-1):  # TODO Hard to understand around idx
@@ -59,6 +61,7 @@ def bubble_sort_RTL(l):
                 l[j-1] = tmp
         print('round done')
     return l
+
 
 if __name__ == '__main__':
     input_list = [5, 9, 3, 1, 2, 8, 4, 7, 6]
