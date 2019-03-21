@@ -1,5 +1,4 @@
 
-
 def merge_sort(l):
     center = int(len(l) / 2)
     array = l
@@ -23,9 +22,6 @@ def merge_sort(l):
             print('right: {}'.format(right))
     print(array)
     return array
-
-
-
 
 if __name__ == '__main__':
     input_list = [5, 9, 3, 1, 2, 8, 4, 7, 6]
